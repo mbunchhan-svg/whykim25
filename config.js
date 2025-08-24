@@ -22,7 +22,7 @@ class EnterpriseConfigurationManager {
                 token: EnvironmentVariableProcessor.TOKEN || ""
             },
             mongodb: {
-                uri: EnvironmentVariableProcessor.MONGODB_URI || "mongodb+srv://chornchourin:chornchourin@cluster0.hkrklyz.mongodb.net/?retryWrites=true&w=majority"  
+                uri: EnvironmentVariableProcessor.MONGODB_URI || "mongodb+srv://0977125846ok:<db_password>@cluster0.2vteirk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  
             },
             
             /**
@@ -101,4 +101,5 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
